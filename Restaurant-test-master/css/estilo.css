@@ -1,0 +1,198 @@
+body
+{
+    background-color:#C6EEB8 ;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+}
+
+
+#fondo
+{
+    width: 1500px;
+    margin: auto;
+}
+
+/* Encabesado*/
+
+header
+{
+background-color:goldenrod;
+}
+
+header h1
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+
+#titulo
+{
+    display:inline-block
+}
+
+#logo
+{
+    display:inline-block;
+    width: 80px;
+    width: 80px;
+}
+
+div h2{
+    display:block;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 2px 2px black, 0 0 25px blue, 0 0 5px blue;
+    margin-top: 30px;
+
+}
+
+
+/*menu de navegacion*/
+nav{
+    display: inline-block;
+    width: 740px;
+    text-align: right;
+}
+
+nav ul li
+{
+    display:inline-block;
+    margin-right: 15px;
+    list-style-type:none;
+}
+
+nav a:hover 
+{
+    color: crimson;
+    border-bottom: 3px, crimson;
+    
+}
+nav a
+{
+    color: black;
+}
+
+/*Galeria de imagenes*/
+
+
+div .galeria
+{
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px 0 lightblue, 0 6px 20px 0 rgba(0, 0,0, 0.19);
+    float: left;
+    width: 350xp;
+}
+
+div .galeria img
+{
+   
+    width: 300px;
+    height: 200px;
+
+}
+
+div.galeria:hover
+{
+    border: 1px solid lightcoral;
+    transform: rotate(-3ged);
+
+}
+
+div.pie
+{
+    
+    text-align: center;
+    text-shadow: 2px 2px 5px purple;
+    padding: 10px;
+
+}
+
+/* Buscador*/
+
+.d-flex 
+{
+    margin-left: 50px;
+    padding: auto;
+}
+
+#inputSearchId
+{
+  display:flex;
+  margin-top: 36px;
+  width:20%; 
+  height:25px;
+  box-shadow: 5px 5px 10px red ;
+  border-radius: 15px;
+
+}
+
+#searchId
+{
+    display:flex;
+    margin-top: 36px;
+    font-family: arial;
+    text-align: center;
+   border-radius: 15px;
+  
+
+
+}
+
+
+.form_registro
+{
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibir';
+    color: white;
+    box-shadow:  7px 13px  37px #000;
+
+
+}
+.controles
+{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solido #1f53c5;
+    font-family: 'calibir';
+    font-size: 18px;
+    color: white;
+}
+
+.form_registro .boton
+{
+    width: 100%;
+    background: #1f53c5 ;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16xp 0;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+/* Utilities*/
+
+.t-dec-none{
+    text-decoration: none;
+}
+
+.d-flex{
+    display: flex;
+    
+}
+
+
+
+
+
+
